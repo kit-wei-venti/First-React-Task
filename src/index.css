@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font-family: 'Inter';
+    background-color: #282D35;
+    
+}
+
+
+.React-logo{
+    width: 50px;
+    margin-right: 7px;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+
+
+.nav--title{
+    color: white;
+    margin-left: auto;
+    font-weight: 600;
+}
+
+
+.nav--logo_text{
+    font-weight: 700;
+    font-size: 22px;
+    color: #61DAFB
+}
+
+
+main{
+    padding: 50px 27px;
+    color: white;
+    background-image: url(./Images/halflogo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    
+    
+}
+
+
+.main-heading{
+    margin-bottom: 20px;
+    font-size: 39px;
+}
+
+main > ul{
+    padding-left: 45px;
+}
+
+main > ul >li{
+    padding-block: 10px;
+}
+
+main > ul >li::marker{
+    font-size: 1.8rem;
+    color: #61DAFB
+    
+}
+
+.half{
+    height: 40px;
+}
